@@ -1,0 +1,53 @@
+/* در فایل CSS خود قرار دهید */
+
+.legend-container {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.legend-table {
+  width: 100%;
+}
+
+.legend-table td {
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.legend-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+/* این کلاس باکس راهنمای رنگ‌ها را تعریف می‌کند */
+.color-legend-box {
+  position: fixed;
+  top: 10px; /* ارتفاع از بالا */
+  right: 10px; /* ارتفاع از راست */
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* پس زمینه باکس با شفافیت */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  z-index: 1000; /* تا بالاترین لایه بر روی نقشه قرار گیرد */
+}
+
